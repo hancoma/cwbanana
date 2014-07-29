@@ -28,7 +28,7 @@ html, body, .container, .scroller {
 .menu-trigger {
 	position: relative;
 	padding-left: 60px;
-	font-size: 12px;
+	font-size: 1.8em;
 }
 
 .menu-trigger:before {
@@ -38,7 +38,7 @@ html, body, .container, .scroller {
 	width: 40px;
 	height: 6px;
 	background: #fff;
-	box-shadow: 0 6px #34495e, 0 12px #fff, 0 18px #34495e, 0 24px #fff;
+	box-shadow: 0 6px #366092, 0 12px #fff, 0 18px #366092, 0 24px #fff;
 	content: '';
 }
 
@@ -294,4 +294,106 @@ html, body, .container, .scroller {
 .no-csstransforms3d .mp-menu > .mp-level,
 .no-js .mp-menu > .mp-level {
 	display: block;
+}
+
+.logo {
+	float:left;
+	text-align:center;
+	width:33%;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	
+}
+
+.header1 { float:left; width:100%; background:#366092 } 
+.header2 { float:left; width:33%; padding-top:0.5em; }
+
+
+.toolbar { float:left; width:100%; background:#2F3C4B; padding-top:0.7em; padding-bottom:0.7em } 
+.toolbar1 { float:left; width:33%;  text-align:center;  }
+.toolbar2 { float:left; width:33%;  text-align:center; }
+.toolbar3 { float:left; width:33%;  text-align:center; }
+
+.textbox { float:left; width:100%;  padding-top:0.7em; padding-bottom:0.9em }
+.textname { float:left; padding-left:0.7em; padding-bottom:0.7em; border-bottom:1px solid #CCC; width:100%; }
+.textimg {  float:left; width:100%; padding-top:0.7em; } 
+.texttext {  float:left; padding-left:0.7em; padding-left:0.7em; padding-top:0.7em; border-top:1px solid #CCC; width:100%; } 
+.textacc { width:100%; border-bottom:1px solid #CCC; width:100%; padding-top:0.7em; padding-right:0.7em; padding-bottom:1em;} 
+.textuser {float:right; padding-right:0.7em;     }
+
+img {
+max-width:350px; 
+width: expression(this.width > 350 ? 350: true); 
+height: auto;}
+
+
+
+.write1 { width:100%;  margin-top:1.5em; padding-bottom:0.9em;   display:inline-block}
+
+.write_title { float:left; width:90%;   }
+.write_titletext1 {float:left; width:10%;    }
+#write_titletext {float:left; width:90%;    }
+#write_titletext2 {float:left; width:100%; min-height:250px;   }
+
+.write1 img { width: 15%;float : right;}
+
+
+
+/*login css*/
+
+#login_form
+{
+	width: 100%;
+}
+
+#login_form ul
+{
+	padding : 0 0 0 0;
+}
+.check_area
+{
+	margin-left : 25%;
+}
+.img_button
+{
+	margin-top : 1%;
+	text-align : center;
+}
+
+.title_li{
+	width : 35%;
+	display : inline-block;
+	text-align : left;
+}
+.text_li{
+	width : 60%;
+	display : inline-block;
+}
+#userEmail
+{
+	width : 100%;
+}
+
+.title_ul
+{
+	margin : 0 0 15px 0;
+	padding : 0;
+}
+
+#join_form
+{
+	width : 100%;
+	padding : 0 0 0 0;
+}
+
+.clause {
+	margin : 2% 0 2% 0;
+
+}
+.text_clause1
+{
+	width : 100%;
+	height : 150px;
+	background-color : #E5E5E5;
+	border : 0px;
 }

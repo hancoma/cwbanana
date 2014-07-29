@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 <html lang="en" class="no-js">
 	<head>
 		<meta charset="UTF-8" />
@@ -72,6 +73,8 @@ body,
                     </ul>
                 </div>
             </li>
+            
+            
              <li class="icon icon-arrow-left">
                 <a class="icon icon-display" href="#">category </a>
                  <div class="mp-level">
@@ -106,7 +109,7 @@ body,
             <div class="scroller-inner">
             <div class="header1">
             <div class="header2"><a href="#" id="trigger" class="menu-trigger"></a></div>
-            <div class="logo"><a href="index.html"><img src="logo.png"></a></div>
+            <div class="logo"><img src="logo.png"></div>
             </div>
             
             <div class="toolbar">
@@ -120,27 +123,52 @@ body,
             <a href="#">친구글 보기</a>
             </div>
             </div>
-            
-            
-            <div class="textbox">
-				<div class="textname">
-					테이클러 App 
-				</div>
-				<div class="textimg">
-					<img src="textimg.png">
-				</div>
-				<div class="texttext">
-					테이클러 앱디자인입니다.테이클러 앱디자인입니다.테이클러 앱디자인입니다.테이클러 앱디자인입니다.테이클러 앱디자인입니다.
-					테이클러 앱디자인입니다.테이클러 앱디자인입니다.테이클러 앱디자인입니다.테이클러 앱디자인입니다.테이클러 앱디자인입니다.
-					테이클러 앱디자인입니다.테이클러 앱디자인입니다.테이클러 앱디자인입니다.테이클러 앱디자인입니다.테이클러 앱디자인입니다.
-				</div>
-            </div>
-            <div class="textuser">
-            바나나스토밍
-            </div>
-            
-           
-           
+
+
+           <div id="join_form">
+				<form name = "form_join">
+					<ul class="title_ul">
+						<li class="title_li">EMAIL</li>
+						<li class="text_li"><input type="text" id="userEmail" class="text_style" /></li>
+					</ul>
+					<ul class="title_ul">
+						<li class="title_li" >PASSWORD</li>
+						<li class="text_li"><input type="password" id="userPwd" class="text_style"/></li>
+					</ul>
+					<ul class="title_ul">
+						<li class="title_li">PASSWORD 확인</li>
+						<li class="text_li"><input type="password" id="userPwd2" class="text_style"/></li>
+					</ul>
+					<ul class="title_ul">		
+						<li class="title_li">NAME</li>
+						<li class="text_li"><input type="text" id="userName" class="text_style"/></li>
+					</ul>
+					<ul class="title_ul">
+						<li class="title_li">NICKNAME</li>
+						<li class="text_li"><input type="text" id="userNick" class="text_style"/></li>
+					</ul>
+								
+					<div class="check_area">
+						<input type="checkbox" name="check1"> 소식에 대한 메일을 받겠습니다. 
+					</div>
+					<div class="check_area">
+						<input type="checkbox" name="check2"> 개인보호정책동의
+					</div>
+								
+					<div class="clause">
+						<input type="text" id="text_clause1" class="text_clause1"/> 
+					</div>
+					<div class="check_area">
+						<input type="checkbox" name="check3"> 이용약관 동의
+					</div>
+					<div class="clause">
+						<input type="text" id="text_clause2" class="text_clause1"/> 
+					</div>
+					<div class="img_button">
+						<a href="#"> <img id="confirm" src="img/join.png"> </a>
+					</div>
+				</form>
+			</div>
 
             
             
