@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.rococophoto.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>작업어플</name>
+    <name>teiklr</name>
     <description>
-        작업어플
+        teiklr
     </description>
     <author email="ch7@hanmail.net" href="http://cwbana6.cafe24.com">
-        작업어플
+        teiklr
     </author>
     <feature name="PushPlugin" >
     <param name="android-package" value="com.plugin.gcm.PushPlugin"/>
